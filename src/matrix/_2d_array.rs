@@ -1,14 +1,14 @@
 use crate::matrix::_type::def;
-#[allow(unused)]
 use std::io::{self, Write, stdout};
 
 #[derive(Debug)]
 pub struct NnfwMatrix {
-    matrix: Vec<f64>,
-    rows: usize,
-    cols: usize,
+    pub matrix: Vec<f64>,
+    pub rows: usize,
+    pub cols: usize,
 }
 
+#[allow(unused)]
 impl NnfwMatrix {
     pub fn new(rows: usize, cols: usize, fill: f64) -> Self {
         Self {

@@ -1,6 +1,7 @@
 #[allow(unused)]
 pub mod _type;
 pub mod _2d_array;
+pub mod _operations;
 
 #[allow(unused)]
 use _type::def;
